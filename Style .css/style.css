@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Gurmukhi:100,200,300,regular,500,600,700,800,900");
+
+*{box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif ;
+}
+body{
+    margin: 0;
+     gap: 30px;
+     min-height: 100vh;
+     display: block;
+}
+header{
+    /* border: 10px red solid; */
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4d0d0e;
+    color: white;
+    unicode-bidi: isolate;
+}
+nav{
+      width: 100%;
+     height:  70px;
+     display: flex;
+      flex-direction: row;
+     justify-content: space-between;
+     align-items: center; 
+     background-color: #4d0d0e;
+        align-items: center;
+        margin: 10px;
+        gap: 10px;
+
+    }
+
+#logo{
+    color: white;
+    padding: 0;
+     display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+h2{
+    margin: 10px;
+    padding: 10px;
+
+}
+#links{
+    display: flex;
+     margin: 10px;
+    padding: 0px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;   
+}
+a{
+    all: unset;
+    color: white;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+     /* border: 10px black solid; */
+     height: 30px;
+     width: 150px;
+    cursor: pointer;
+}
+.JOINUS{
+    all: unset;
+    width: 90px;
+    color: white;
+    /* border-radius: 5px; */
+    display: flex;
+    justify-content: center;
+    background-color: #f35835;
+    padding: 5px 15px ;
+    border-radius: 5px;
+     border: 1px blue solid;
+     margin: auto;
+}
+
+.picture{
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+     /* border: 10px blue solid; */
+   
+}
+.hero{
+     display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   background-color: #f35835;
+   margin top: 10px;
+   margin: 0;
+   gap: 0px;
+}
+
+    
+.text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       width: 100%;
+       height: 600px;
+        color: white;
+        /* border: 10px blue solid;   */
+}
+
+
+.JOINOW{
+    all: unset;
+    background-color: #4d0d0e;
+    width: 90px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.TRACK{
+    all: unset;
+    background-color: #f35835;width: 90px;
+    color: white;
+    border-radius: 5px;
+     border: 1px black solid;
+     width: 120px;
+    
+    
+}
+.Button{
+     display: flex;
+      flex-direction: row;
+     justify-content: space-between;
+     gap: 10px;
+    
+}
+.title{
+     display: flex;
+      flex-direction: row;
+     justify-content: space-between;
+     align-content: center;
+      border: 10px black solid;
+      margin-bottom: 20px;
+}
+h2{
+   border: 1px red solid;
+   display: flex;
+   position: relative;
+   left: 45%;
+   /* right: 50%; */
+}
+    
+   
+.menu{
+    background-color: #fff5ea;
+}
+.card{
+    /* border: 10px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template: repeat(2,1fr) /repeat(3,1fr);
+    /* margin: 20px; */
+    gap: 150px;   
+    text-align: center;
+    background-color:#fff5ea;
+    width: 100%;
+   
+}
+
+h3{
+   text-align: center;
+}
+.ourmenu {
+    all: unset;
+    background-color: #4d0d0e;
+   
+    color: white;
+    border-radius: 5px;
+       display: flex;
+    justify-content: center;
+    padding: 5px 15px ;
+      width: 15%;
+     height: 30%;
+     margin-left: 560px;
+      align-items: center;
+         position: relative;
+      left: 15%;
+
+     
+}
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.send {
+    all: unset;
+    background-color: #4d0d0e;
+   
+    color: white;
+    border-radius: 5px;
+       display: flex;
+    justify-content: center;
+    padding: 5px 15px ;
+      width: 15%;
+     height: 30%;
+     margin-left: 560px;
+      align-items: center;
+         position: relative;
+      left: 15%;
+
+}
+.Contact{
+    background-color: #f35835;
+}
+ .Footer{
+    background-color: black;
+    color: white;  
+ }
